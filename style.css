@@ -1,0 +1,211 @@
+/* === GENERAL === */
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+.img-responsive{
+    margin: 0 auto;
+}
+
+.pt{
+    cursor: pointer;
+}
+.thumbnail {margin-bottom:6px;}
+
+.carousel-control.left,.carousel-control.right{
+  background-image:none;
+  margin-top:10%;
+  width:5%;
+}
+.glyphicon-chevron-left,.glyphicon-chevron-right{
+    color:white;
+}
+
+@font-face {
+    font-family: 'cornerstone';
+    src: url('/Cornerstone.ttf');
+}
+#blm{
+  font-family: cornerstone;
+}
+#petitionpoints{
+}
+#desc{
+    color: #181818;
+    font-size: 52px;
+    margin: 0;
+}
+.card{
+    border:0px;
+    margin: 30px;
+}
+h2 {
+    color: #181818;
+    font-size: 52px;
+    margin: 0;
+}
+h4{
+    #181818;
+}
+h3, i {
+    color: #181818;
+}
+blockquote footer{
+    color: #b5b3b3;
+}
+/* === JUMBOTRON === */
+.jumbotron {
+    background: #000 url('/images/banner.jpg') no-repeat 40% 50% scroll;
+    background-size: cover;
+    min-height: 600px;
+    color: white;
+    margin: 0;    
+}
+.card-content{
+    text-align: left;
+    margin-top:10px;
+}
+.twitter-btn{
+    background-color: #1b95e0 !important;
+}
+
+/* === CONTENT === */
+.content {
+    padding-top: 50px;
+    padding-bottom: 50px;      
+}
+.header-section{
+    margin-bottom: 30px;
+    margin-left:20;
+    margin:50px;
+
+}
+
+/* === Biography === */
+#petitionpoints li{
+    margin: 15px;
+}
+#petitionpoints strong {
+    font-weight: 500;
+}
+
+/* === Charitiy and Activism === */
+#activism, #quotation {
+    background-color: #433d3d;
+    color: #f8f2eb;
+}
+#thumb-activism{
+    margin-top: 40px;
+}
+#activism .img-circle{
+    max-height: 100px;
+    transition: box-shadow 0.3s;
+}
+#activism img:hover{
+    box-shadow: 0 0 0 2px #B39970;
+}
+
+/* === Discography === */
+#discography i:hover {
+    font-weight: 900;
+}
+
+
+/* === MEDIA QUERIES === */
+
+    /* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+    .jumbotron{
+        min-height: 360px;
+    }
+    #main-heading {
+        margin-top: 20px;
+    }
+    #main-heading h1 {
+        font-size: 40px;
+    }
+    #main-heading h2 {
+        font-size: 20px;
+    }
+    .header-section{
+        text-align: center;
+    }
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    .jumbotron{
+        min-height: 450px;
+    }
+    #main-heading h1 {
+        font-size: 50px;
+    }
+    #main-heading h2 {
+        font-size: 32px;
+    }
+    .header-section{
+        text-align: inherit;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .jumbotron{
+        min-height: 500px;
+    }
+    #main-heading {
+        margin-top: 25px;
+    }
+    #main-heading h1 {
+        font-size: 60px;
+    }
+    #main-heading h2 {
+        font-size: 30px;
+    }
+    .card{
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    .jumbotron{
+        min-height: 1000px;
+    }
+    #main-heading {
+        margin-top: 130px;
+    }
+    #main-heading h1 {
+        font-size: 90px;
+    }
+
+    .card{
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+}

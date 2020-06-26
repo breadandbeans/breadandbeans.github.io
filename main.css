@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+}
+
+
+
+@font-face {
+    font-family: 'cornerstone';
+    src: url('/Cornerstone.ttf');
+}
+
+
+body{
+  width:100%; 
+  background:#181818 !important;
+  height: 100%;
+  position: absolute;
+  font-size:xx-large;
+}
+body{margin:0px !important; color:#fff;}
+
+
+a.navbar-brand{
+  text-align: left;
+  font-size: xx-large;
+}
+.navbar{
+  margin-bottom:0 !important;
+}
+
+.navbar button{
+  background:#fff;
+}
+
+.navbar span{
+  background:#181818;
+}
+
+.navbar a{
+  text-align:center;
+  color:#181818;
+}
+
+.banner{
+  background:#181818;
+  height:300px;
+  display: none;
+}
+
+body h2 
+{
+  font-size:6.5vw;
+  color:#fff;
+  height:50px;
+  line-height:50px;
+  position:relative;
+  top:20%;
+  text-align:center;
+  font-family: cornerstone;
+}
+#firstRow{
+  top:33%;
+  height:50px;
+  text-align:center;
+  position:relative;
+}
+#secondRow{
+  top:45%;
+  height:50px;
+  text-align:center;
+  position:relative;
+}
+#cont{
+  top:55%;
+  height:50px;
+  text-align:;
+  position:relative;
+}
+#share{
+
+  height:50px;
+  position:relative;
+  top:35%;
+  text-align:center;
+  color:#fff;
+}
+#change{
+
+  position:relative;
+  top:35%;
+  text-align:center;
+  color:#fff;
+}
+#resources{
+
+  position:relative;
+  margin-left: 10px;
+  top:35%;
+  text-align:left;
+  color:#fff;
+}
+
+.cards{
+  text-align: center;
+}
+.twitter-tweet {
+    width: 100vw !important;
+}
+li{
+  color:#fff;
+}

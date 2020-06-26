@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="racism, limkokwing racism, limkokwing racist, black lives matter, blm, limkokwing, limkokwing university, top universities in malaysia, international university in malaysia, private university in malaysia, study at limkokwing, limkokwing university courses, limkokwing global classroom, limkokwing global campus, global university campus, student life at limkokwing university malaysia, best universities in malaysia">
+    <title>Limkokwing University Racism - Petiton Point 2</title>
+ 
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script><link rel="stylesheet" href="./style.css">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link href="/style.css" rel="stylesheet">
+    <link href="/test.css" rel="stylesheet">
+
+    <script type="text/javascript" src="/script.js"></script>
+</head>
+<body>
+<div class="navbar">
+  <a href="/">Home</a>
+  <a href="https://www.change.org/p/ministry-of-higher-education-the-resignation-of-lim-kok-wing-and-all-members-of-smt">Sign Petition</a>
+</div>
+
+
+
+
+<div class="container">
+	<div class="row content text-center">
+	<div class="header-section container col-offset-1">
+	    <h3><b>Petition Point 2: Wrongful termination of contract and threats to staff.</b></h3>
+	</div>
+
+
+	<div style="margin:10px" class=""><h3><b>1 - Forced to be silent in fear of losing their jobs</b></h3><br><a href="/images/pt2/Forced%20to%20be%20silent%20in%20fear%20of%20losing%20their%20jobs.jpg"><img class="img-responsive" width="500px" height="500px" src="/images/pt2/Forced%20to%20be%20silent%20in%20fear%20of%20losing%20their%20jobs.jpg"></a></div><br><div style="margin:10px" class=""><h3><b>2 - Microaggression including threatening to terminate visas of international staff</b></h3><br><a href="/images/pt2/Microaggression%20including%20threatening%20to%20terminate%20visas%20of%20international%20staff.jpeg"><img class="img-responsive" width="500px" height="500px" src="/images/pt2/Microaggression%20including%20threatening%20to%20terminate%20visas%20of%20international%20staff.jpeg"></a></div><br><div style="margin:10px" class=""><h3><b>3 - Staff abuse and workers exploitation</b></h3><br><a href="/images/pt2/Staff%20abuse%20and%20workers%20exploitation.jpg"><img class="img-responsive" width="500px" height="500px" src="/images/pt2/Staff%20abuse%20and%20workers%20exploitation.jpg"></a></div><br><div style="margin:10px" class=""><h3><b>4 - Threatened to be kicked out of Malaysia for standing up to racism in the university</b></h3><br><a href="/images/pt2/Threatened%20to%20be%20kicked%20out%20of%20Malaysia%20for%20standing%20up%20to%20racism%20in%20the%20university.jpg"><img class="img-responsive" width="500px" height="500px" src="/images/pt2/Threatened%20to%20be%20kicked%20out%20of%20Malaysia%20for%20standing%20up%20to%20racism%20in%20the%20university.jpg"></a></div><br></div>
+		
+	</div>
+</div>
+
+
+            <div class="text-center">
+                <a id ="change"href="https://www.change.org/p/ministry-of-higher-education-the-resignation-of-lim-kok-wing-and-all-members-of-smt"class="btn btn-lg btn-info">Sign Petition!</a>
+                
+            </div>
+            <br>
+<script type="text/javascript">
+	var folder = "/images/pt2/";
+	var x=1;
+
+	$.ajax({
+	    url : folder,
+	    success: function (data) {
+	        $(data).find("a").attr("href", function (i, val) {
+	            if( val.match(/\.(jpe?g|png|gif)$/) ) { 
+	                $(".content").append( "<div style='margin:10px'class=''><h3 ><b>"+x+" - " + val.replace(/%20/g, ' ').split('.').slice(0, -1).join('.')+"</b></h3><br><a href='"+folder+val+"'><img class='img-responsive' width='500px' height='500px' src='"+ folder + val +"'></a></div><br>" );
+	            x++;
+	            } 
+	        });
+	    }
+	});
+</script>
+</body>
+</html>
